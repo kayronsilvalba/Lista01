@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Qustãoo06 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita ao usuÃ¡rio que insira o lado do quadrado
+        System.out.print("Digite o lado do quadrado: ");
+        int lado = scanner.nextInt();
+
+        // Calcula o perÃ­metro e a Ã¡rea
+        int perimetro = 4 * lado;
+        int area = lado * lado;
+
+        // Exibe o perÃ­metro e a Ã¡rea
+        System.out.println("PerÃ­metro do quadrado: " + perimetro);
+        System.out.println("Ã�rea do quadrado: " + area);
+    }
+}
