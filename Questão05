@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class QuestÃ£o05 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita ao usuÃ¡rio que insira os nÃºmeros inteiros
+        System.out.print("Digite o primeiro nÃºmero inteiro: ");
+        int numero1 = scanner.nextInt();
+
+        System.out.print("Digite o segundo nÃºmero inteiro: ");
+        int numero2 = scanner.nextInt();
+
+        // Calcula a soma e a diferenÃ§a
+        int soma = numero1 + numero2;
+        int diferenca = numero1 - numero2;
+
+        // Exibe a soma e a diferenÃ§a
+        System.out.println("Soma: " + soma);
+        System.out.println("DiferenÃ§a: " + diferenca);
+    }
+}
