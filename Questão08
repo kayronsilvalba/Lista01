@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Questãoo08 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita ao usuÃ¡rio que insira a idade em anos
+        System.out.print("Digite a idade em anos: ");
+        int idadeAnos = scanner.nextInt();
+
+        // Calcula a idade em meses, semanas, dias, horas, minutos e segundos
+        int idadeMeses = idadeAnos * 12;
+        int idadeSemanas = idadeAnos * 52;
+        int idadeDias = idadeAnos * 365; // Considerando um ano com 365 dias
+        long idadeHoras = idadeDias * 24L; // Usamos long para evitar overflow
+        long idadeMinutos = idadeHoras * 60L;
+        long idadeSegundos = idadeMinutos * 60L;
+
+        // Exibe a idade em diferentes unidades de tempo
+        System.out.println("Idade em meses: " + idadeMeses);
+        System.out.println("Idade em semanas: " + idadeSemanas);
+        System.out.println("Idade em dias: " + idadeDias);
+        System.out.println("Idade em horas: " + idadeHoras);
+        System.out.println("Idade em minutos: " + idadeMinutos);
+        System.out.println("Idade em segundos: " + idadeSegundos);
+    }
+}
