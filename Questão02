@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class QuestÃ£o02 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita ao usuÃ¡rio que insira seu nome
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        // Exibe a mensagem personalizada
+        System.out.println(nome + " jÃ¡ sabe programar!!!");
+    }
+}
